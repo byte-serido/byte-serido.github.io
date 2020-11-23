@@ -1,10 +1,11 @@
 import React from 'react';
 import './styles.css';
+import Logo from '../../assets/Logo.jpg'
 
 function Header() {
     return (
-        <div className='header'>
-            <h1>Byte Seridó Júnior</h1>
+        <div className='header-root'>
+                <img src={Logo}></img>
         </div>
     );
 }
