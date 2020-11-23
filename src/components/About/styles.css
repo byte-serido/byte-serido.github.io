@@ -2,30 +2,34 @@
     padding: 100px 0;
 }
 
-.title {
-    padding-bottom: 60px;
+.title-about {
+    padding-bottom: 30px;
 }
 
-.title h2 {
+.title-about h2 {
     font-weight: 700;
     font-size: 38px;
     color: #fff;
     text-align: center;
 }
 
-.title h2 span {
+.title-about h2 span {
     color: #57cbcc;
 }
 
-.border {
+.border-about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
     border-top: 2px solid rgba(236, 239, 241, 0.07);
     height: 1px;
     margin: 15px auto 0;
     position: relative;
-    width: 30%;
+    width: 72%;
+    font-size: 30px;
 }
 
-.border:before {
+.border-about:before {
     background-color: #fff;
     content: '';
     height: 6px;
