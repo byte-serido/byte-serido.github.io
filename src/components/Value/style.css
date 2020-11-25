@@ -1,29 +1,29 @@
-.title {
+.title-value {
     padding-bottom: 60px;
 }
 
-.title h2 {
+.title-value h2 {
     font-weight: 700;
     font-size: 38px;
     color: #fff;
 }
 
-.title h2 span {
+.title-value h2 span {
     color: #57cbcc;
 }
 
-.text-center {
+.text-center-value {
     text-align: center;
 }
 
-.border {
+.border-value {
     border-top: 2px solid rgba(236, 239, 241, 0.07);
     margin: 15px auto 0;
     position: relative;
     width: 30%;
 }
 
-.border:before {
+.border-value:before {
     background-color: #fff;
     content: '';
     height: 6px;
@@ -35,36 +35,35 @@
     background-color: #57cbcc;
 }
 
-.section {
-    padding: 100px 0;
+.section-value {
+    padding: 100px 0 0 0;
 }
 
-.team-member {
+.team-member-value {
     max-width: 980px;
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
 }
 
-.team-member ul {
+.team-member-value ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-    margin-top: 50px;
 }
 
-.team-member ul li {
+.team-member-value ul li {
     display: flex;
     flex-direction: column;
 }
 
-.team-member ul li img {
+.team-member-value ul li img {
     max-width: 100%;
     border-radius:  5px 5px 0 0;
 }
 
-.team-member ul li footer {
+.team-member-value ul li footer {
     flex: 1;
     background: #292F36;
     padding: 15px 20px;
@@ -72,26 +71,26 @@
     border-radius: 0 0 5px 5px;
 }
 
-.team-member ul li footer strong {
+.team-member-value ul li footer strong {
     font-size: 16px;
     color: #333;
 }
 
-.team-member ul li footer p {
+.team-member-value ul li footer p {
     font-size: 14px;
     line-height: 20px;
     color: #999;
     margin-top: 5px;
 }
 
-.team-member ul li .buttons {
+.team-member-value ul li .buttons {
     margin-top: 10px;
     display: grid;
     grid-template: repeat(2, 1fr);
     grid-gap: 10px;
 }
 
-.team-member ul li .buttons button {
+.team-member-value ul li .buttons button {
     height: 50px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
     border: 0;
@@ -100,18 +99,18 @@
     cursor: pointer;
 }
 
-.team-member ul li .buttons button:hover img {
+.team-member-value ul li .buttons button:hover img {
     transform:  translateY(-5px);
     transition: all 0.2s;
 }
 
-.team-member .empty {
+.team-member-value .empty {
     font-size: 32px;
     color: #999;
     font-weight: bold;
     margin-top: 300px;
 }
 
-.team-member span {
+.team-member-value span {
     font-size: 13px;
 }

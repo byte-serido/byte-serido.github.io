@@ -1,20 +1,20 @@
-.container-about {
+.container-mission {
     padding: 60px 0 0px 0px;
 }
 
 
-.title-about h2 {
+.title-mission h2 {
     font-weight: 700;
     font-size: 38px;
     color: #fff;
     text-align: center;
 }
 
-.title-about h2 span {
+.title-mission h2 span {
     color: #57cbcc;
 }
 
-.border-about {
+.border-mission {
     padding-top: 30px;
     text-align: justify;
     border-top: 2px solid rgba(236, 239, 241, 0.07);
@@ -24,7 +24,7 @@
     font-size: 30px;
 }
 
-.border-about:before {
+.border-mission:before {
     background-color: #fff;
     content: '';
     height: 6px;
