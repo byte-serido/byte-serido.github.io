@@ -1,0 +1,37 @@
+.container-vision {
+    padding: 60px 0 0px 0px;
+}
+
+
+.title-vision h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+.title-vision h2 span {
+    color: #57cbcc;
+}
+
+.border-vision {
+    padding-top: 30px;
+    text-align: justify;
+    border-top: 2px solid rgba(236, 239, 241, 0.07);
+    margin: 15px auto 0;
+    position: relative;
+    width: 72%;
+    font-size: 30px;
+}
+
+.border-vision:before {
+    background-color: #fff;
+    content: '';
+    height: 6px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: -4px;
+    width: 50px;
+    background-color: #57cbcc;
+}

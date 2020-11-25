@@ -6,6 +6,7 @@ import Team from './components/Team';
 import FooterBottom from './components/Footer';
 import Value from './components/Value';
 import Mission from './components/Mission';
+import Vision from './components/Vision';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <About />
       <Mission/>
+      <Vision />
       <Value />
       <Team />
       <FooterBottom />
