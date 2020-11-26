@@ -5,7 +5,9 @@ import Logo from '../../assets/Logo.jpg'
 function Header() {
     return (
         <div className='header-root'>
+            <div className="banner-img">
                 <img src={Logo}></img>
+                </div>
         </div>
     );
 }

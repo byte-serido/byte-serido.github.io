@@ -1,3 +1,25 @@
+.header-root {
+    height: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.banner-img img {
+    width: 80%;
+    height: 550px;
+}
+
+.header-root h2 {
+    padding-bottom: 150px;
+}
+
+@media (max-width: 720px){
+    .banner-img img {
+        width: 100%;
+        height: 550px;
+    }
+}
+/*
 .header-root img{
     height: 550px;
     width: 100%;
@@ -5,3 +27,4 @@
     margin: auto;
     background-color: #FFFFFF;
 }
+*/

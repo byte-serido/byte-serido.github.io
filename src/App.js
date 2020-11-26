@@ -7,6 +7,7 @@ import FooterBottom from './components/Footer';
 import Value from './components/Value';
 import Mission from './components/Mission';
 import Vision from './components/Vision';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Vision />
       <Value />
       <Team />
+      <Contact />
       <FooterBottom />
     </div>
   );

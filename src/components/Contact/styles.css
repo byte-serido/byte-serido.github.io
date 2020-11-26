@@ -1,0 +1,38 @@
+.title-contact h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+.title-contact h2 span {
+    color: #57cbcc;
+}
+.border-contact a {
+    text-decoration: none;
+    color: rgba(236, 239, 241, 0.5);
+}
+
+.border-contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-align: justify;
+    border-top: 2px solid rgba(236, 239, 241, 0.07);
+    margin: 15px auto 0;
+    position: relative;
+    width: 72%;
+    font-size: 30px;
+}
+
+.border-contact:before {
+    background-color: #fff;
+    content: '';
+    height: 6px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: -4px;
+    width: 50px;
+    background-color: #57cbcc;
+}

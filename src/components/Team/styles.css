@@ -20,7 +20,7 @@
     border-top: 2px solid rgba(236, 239, 241, 0.07);
     margin: 15px auto 0;
     position: relative;
-    width: 30%;
+    width: 72%;
 }
 
 .border:before {
@@ -114,4 +114,22 @@
 
 .team-member span {
     font-size: 13px;
+}
+
+@media (max-width: 538px){
+    .team-member ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 365px){
+    .team-member ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
 }
