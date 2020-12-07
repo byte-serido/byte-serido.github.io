@@ -1,0 +1,135 @@
+
+.title-producto {
+    padding-bottom: 60px;
+}
+
+.title-producto h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #fff;
+}
+
+.title-producto h2 span {
+    color: #57cbcc;
+}
+
+.text-center-producto {
+    text-align: center;
+}
+
+.border-producto {
+    border-top: 2px solid rgba(236, 239, 241, 0.07);
+    margin: 15px auto 0;
+    position: relative;
+    width: 72%;
+}
+
+.border-producto:before {
+    background-color: #fff;
+    content: '';
+    height: 6px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: -4px;
+    width: 50px;
+    background-color: #57cbcc;
+}
+
+.section-producto {
+    padding: 100px 0 0 0;
+}
+
+.team-member-producto {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-member-producto ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.team-member-producto ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-member-producto ul li img {
+    max-width: 100%;
+    border-radius:  5px 5px 0 0;
+}
+
+.team-member-producto ul li footer {
+    flex: 1;
+    background: #292F36;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+
+.team-member-producto ul li footer strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.team-member-producto ul li footer p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.team-member-producto ul li .buttons {
+    margin-top: 10px;
+    display: grid;
+    grid-template: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.team-member-producto ul li .buttons button {
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 0;
+    border-radius: 4px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.team-member-producto ul li .buttons button:hover img {
+    transform:  translateY(-5px);
+    transition: all 0.2s;
+}
+
+.team-member-producto .empty {
+    font-size: 32px;
+    color: #999;
+    font-weight: bold;
+    margin-top: 300px;
+}
+
+.team-member-producto span {
+    font-size: 13px;
+}
+
+@media (max-width: 538px){
+    .team-member-producto ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 365px){
+    .team-member-producto ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+}

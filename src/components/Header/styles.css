@@ -5,7 +5,7 @@
 }
 
 .banner-img img {
-    width: 80%;
+    width: 72%;
     height: 550px;
 }
 
@@ -19,12 +19,3 @@
         height: 550px;
     }
 }
-/*
-.header-root img{
-    height: 550px;
-    width: 100%;
-    padding: 0 10% 0 10%;
-    margin: auto;
-    background-color: #FFFFFF;
-}
-*/

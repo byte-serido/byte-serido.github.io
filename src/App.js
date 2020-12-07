@@ -8,12 +8,14 @@ import Value from './components/Value';
 import Mission from './components/Mission';
 import Vision from './components/Vision';
 import Contact from './components/Contact';
+import Products from './components/Products';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <About />
+	  <Products/>
       <Mission/>
       <Vision />
       <Value />
